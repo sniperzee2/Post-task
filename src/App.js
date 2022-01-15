@@ -35,11 +35,11 @@ function App() {
         <div style={{ marginLeft: "1rem" }}>
           <h1>Posts</h1>
         </div>
-        <div class="wrap">
-          <div class="search">
-            <input type="text" class="searchTerm" placeholder="What are you looking for?" onChange={searchPost} />
-            <button type="submit" class="searchButton">
-              <i class="fa fa-search"></i>
+        <div className="wrap">
+          <div className="search">
+            <input type="text" className="searchTerm" placeholder="What are you looking for?" onChange={searchPost} />
+            <button type="submit" className="searchButton">
+              <i className="fa fa-search"></i>
             </button>
           </div>
         </div>
